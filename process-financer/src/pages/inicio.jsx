@@ -1,11 +1,11 @@
-function Dashboard() {
+function Dashboard(saldo, receitas, despesas) {
     return (
         <div>
             <h1>Controle Financeiro</h1>
 
-            <p>Saldo: R$ 0,00</p>
-            <p>Receitas: R$ 0,00</p>
-            <p>Despesas: R$ 0,00</p>
+            <p>Saldo: R$ {saldo}</p>
+            <p>Receitas: R$ {receitas}</p>
+            <p>Despesas: R$ {despesas}</p>
         </div>
     );
 }
